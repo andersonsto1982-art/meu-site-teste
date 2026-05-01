@@ -1,0 +1,22 @@
+.topo{
+    justify-content: space-between; /* Alinha os itens com espaço entre eles */
+    padding: 20px; /* Adiciona um pouco de preenchimento para melhor aparência */
+    width: auto; /* Permite que o topo se ajuste ao conteúdo */
+}
+.menu ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Remove o preenchimento */
+    display: flex; /* Exibe os itens em linha */
+    gap: 20px; /* Espaçamento entre os itens */
+
+}
+.btn-agendar{
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    padding: 10px 20px; /* Preenchimento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+   
+}
